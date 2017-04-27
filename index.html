@@ -1,13 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
+
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+
+  <title>Change Calculator</title>
+  <!-- Style links and JQuery -->
+  <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+  <!--Fonts-->
+
+
 </head>
 
 <body>
+  <div id="outerWrapper">
+<!-- Title on page -->
+    <h1>Change Calculator</h1>
 
+    <div id="inputBoxes">
+
+      <form>
+        <!-- Total amount input -->
+        <label for="totalDollarAmount">Total</label>
+        <input type="number" id="totalDollarAmount" placeholder="0.00">
+        <!-- How much customer gave you amount input -->
+        <label for="customerAmount">Customer Amount</label>
+        <input type="number" id="customerAmount" placeholder="0.00">
+
+    <!-- Button! -->
+    <button type="button" id="calculateChange">Calculate</button><br>
+
+    <p id="changeAmount"></p>
+
+    <!-- Total change amount -->
+      <div id="totalChangeDueTinyDiv">
+      <label for="totalChangeDue">Total Change Due</label>
+      <p id="totalChangeDue"></p>
+    </div>
+
+  </div>
+
+      <table style="width:100%">
+        <th><div id="dollas"></div></th>
+        <th><div id="twentyFive"></div></th>
+        <th><div id="ten"></div></th>
+        <th><div id="five"></div></th>
+        <th><div id="one"></div></th>
+      </table>
+      <table style="width:100%">
+        <th><p id="dollars"></p></th>
+        <th><p id="quarters"></p></th>
+        <th><p id="dimes"></p></th>
+        <th><p id="nickels"></p></th>
+        <th><p id="pennies"></p></th>
+      </table>
+
+    </form>
+    <script type="text/javascript" src="index.js"></script>
+
+  </span>
+
+  </div>
 </body>
+
+
 </html>

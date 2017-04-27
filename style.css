@@ -1,0 +1,104 @@
+
+/* Outer container */
+#outerWrapper {
+  font-size: 1.5em;
+  text-align:center;
+  border: black 5px;
+  border-radius: 10%;
+  margin: 50px 100px;
+  border: black solid 10px;
+  box-shadow: 10px 25px 27px grey;
+  font-family: 'vt323', sans-serif;
+  font-size: 1.4em;
+  background-color: white;
+}
+/* Total price and amount customer gave */
+#inputBoxes {
+  margin: 10px 50px;
+  padding: 5px;
+  text-align: center;
+}
+/* Change amount (not brokendown) */
+#totalChangeDueTinyDiv {
+  margin-top: 20px;
+  font-size: 1.2em;
+}
+/* coin images */
+#dollas {
+  background-image: url("one.jpg");
+  height: 100px;
+  width: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 10px 20px;
+}
+
+#twentyFive {
+  background-image: url("download.jpeg");
+  height: 100px;
+  width: 100px;
+  background-position: center;
+  background-size: contain;
+  margin: 10px 20px;
+}
+
+#ten{
+  background-image: url("dimes.png");
+  height: 100px;
+  width: 100px;
+  background-position: center;
+  background-size: contain;
+  margin: 10px 20px;
+}
+
+#five{
+  background-image: url("nickel.png");
+  height: 100px;
+  width: 100px;
+  background-position: center;
+  background-size: contain;
+  margin: 10px 20px;
+}
+
+#one{
+  background-image: url("penny.png");
+  height: 100px;
+  width: 100px;
+  background-position: center;
+  background-size: contain;
+  margin-right: 30px;
+}
+/* Results broken down */
+th {
+  height:100px;
+  weight:100px;
+}
+h1 {
+  text-shadow: 2px 3px 4px grey;
+}
+#calculateChange:active {
+  background-color: silver;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  cursor: pointer;
+  border-style:none;
+}
+#calculateChange:hover {
+  cursor: pointer;
+}
+
+#calculateChange {
+  padding: 10px 15px;
+  font-size: 1.5em;
+  outline: none;
+  color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 9px grey;
+  display: block;
+  margin: auto;
+  width: 50%;
+  margin-top: 5%;
+  background-color: black;
+  font-family: 'vt323', sans-serif;
+}

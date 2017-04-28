@@ -16,7 +16,7 @@ $(document).ready(function() {
     leftover %= 5
     var pennies = leftover;
 // Return amounts to HTML
-    $("#totalChangeDue").html(change);
+    $("#totalChangeDue").html("$" + change);
     $("#dollars").html(dollars);
     $("#quarters").html(quarters);
     $("#dimes").html(dimes);

@@ -13,9 +13,10 @@
 }
 /* Total price and amount customer gave */
 #inputBoxes {
-  margin: 10px 50px;
-  padding: 5px;
+  margin: 5px 50px;
+  padding: 15px;
   text-align: center;
+  margin: auto;
 }
 /* Change amount (not brokendown) */
 #totalChangeDueTinyDiv {
@@ -24,7 +25,7 @@
 }
 /* coin images */
 #dollas {
-  background-image: url("one.jpg");
+  background-image: url("img/one.jpg");
   height: 100px;
   width: 100px;
   background-position: center;
@@ -33,7 +34,7 @@
 
 }
 #twentyFive {
-  background-image: url("download.jpeg");
+  background-image: url("img/download.jpeg");
   height: 100px;
   width: 100px;
   background-position: center;
@@ -42,7 +43,7 @@
 
 }
 #ten{
-  background-image: url("dimes.png");
+  background-image: url("img/dimes.png");
   height: 100px;
   width: 100px;
   background-position: center;
@@ -51,7 +52,7 @@
 
 }
 #five{
-  background-image: url("nickel.png");
+  background-image: url("img/nickel.png");
   height: 100px;
   width: 100px;
   background-position: center;
@@ -60,7 +61,7 @@
 
 }
 #one{
-  background-image: url("penny.png");
+  background-image: url("img/penny.png");
   height: 100px;
   width: 100px;
   background-position: center;
@@ -99,13 +100,17 @@ h1 {
   background-color: black;
   font-family: 'vt323', sans-serif;
 }
+/* Total change due */
 p {
-  font-size: 1.3em;
+  font-size: 2em;
 }
-
+/* Results in change */
 td {
   height:100px;
   width:100px;
   text-align:center;
-  font-size: 2em;
+
+}
+.textSize{
+  font-size: 1.6em;
 }
